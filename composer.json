@@ -14,5 +14,7 @@
     ],
     "require": {
         "yulois/framework": "1.*"
-    }
+    },
+	"minimum-stability": "stable",
+	"prefer-stable": true
 }
