@@ -1,0 +1,29 @@
+{
+    "name": "yulois/yulois",
+	"version": "1.0.0",
+    "type": "project",
+    "description": "The Yulois PHP framework",
+    "keywords": ["framework","yulois","php"],
+    "homepage": "https://github.com/yulois/yulois.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Gaitan (Dinnovos)",
+            "email": "info.yulois@gmail.com",
+            "homepage": "http://yulois.com.ve"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"symfony/http-foundation"   :"2.*",
+        "symfony/routing"           :"2.*",
+        "symfony/debug"             :"2.*",
+        "symfony/console"           :"2.*",
+        "symfony/yaml"              :"2.*",
+        "symfony/filesystem"        :"2.*",
+        "twig/twig"                 :"1.*",
+        "doctrine/dbal"             :"2.*",
+        "phpmailer/phpmailer"       :"5.*"
+    },
+	"minimum-stability": "stable"
+}
