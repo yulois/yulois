@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-        "yulois/framework": "1.0.*"
+        "yulois/framework": "1.*"
     }
 }
