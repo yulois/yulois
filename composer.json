@@ -1,6 +1,5 @@
 {
     "name": "yulois/yulois",
-	"version": "1.0.0",
     "type": "project",
     "description": "The Yulois PHP framework",
     "keywords": ["framework","yulois","venezuela"],
@@ -14,7 +13,5 @@
     ],
     "require": {
         "yulois/framework": "1.*"
-    },
-	"minimum-stability": "stable",
-	"prefer-stable": true
+    }
 }
