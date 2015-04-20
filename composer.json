@@ -13,5 +13,8 @@
     ],
     "require": {
         "yulois/framework": "1.*"
-    }
+    },
+	"config": {
+		"preferred-install": "dist"
+	}
 }
