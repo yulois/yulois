@@ -26,4 +26,4 @@ if( !defined('YS_ENVIRONMENT') )
 
 date_default_timezone_set('America/Caracas');
 
-require YS_VND . 'yulois/bootstrap.php';
+require YS_VND . 'yulois/framework/src/bootstrap.php';
