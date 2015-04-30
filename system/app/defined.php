@@ -13,6 +13,7 @@ define('YS_ROOT', realpath(dirname(__FILE__) . '/../../') . '/');
 define ('YS_SYSTEM'		, 'system/');
 define ('YS_APP'		, YS_ROOT . YS_SYSTEM . 'app/');
 define ('YS_BUNDLES'	, YS_ROOT . YS_SYSTEM . 'bundles/');
+define ('YS_THEMES'	    , YS_ROOT . YS_SYSTEM . 'themes/');
 define ('YS_VND'		, YS_ROOT . 'vendor/');
 define ('YS_PUBLIC'		, YS_ROOT . 'public_html/');
 

@@ -10,19 +10,15 @@
 
 return array(
 
-	'project'			=> 'Proyecto Yulois1.0',
+    'project'			    => 'Proyecto Yulois1.0',
 
-	'base_url'			=> '',
+    'charset'			    => 'UTF-8',
 
-	'charset'			=> 'UTF-8',
+    'token'				    => '9gyfe3b08sffd6f7s7gfhj86b184936d',
 
-	'token'				=> '9gyfe3b08sffd6f7s7gfhj86b184936d',
+    'enabled_path_themes'   => true,
 
-	'webmaster_email'	=> 'webmaster@yulois.com',
+    'theme_web'             => 'default',
 
-	'i18n'				=> true,
-
-	'languages'			=> array('es'),
-		
-	'default_language'	=> 'es',
+    'theme_admin'           => 'admin'
 );
