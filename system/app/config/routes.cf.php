@@ -16,6 +16,17 @@ $routes->add(
 );
 
 $routes->add(
-	'default',
-	new Route( '/{bundle}/{module}/{action}/{param1}/{param2}/{param3}', array('param1' => null, 'param2' => null, 'param3' => null) )
+    'default',
+    new Route(
+        '/q/{bundle}/{controller}/{action}/{param1}/{param2}/{param3}/{param4}/{param5}',
+        array(
+            '_bundle' => array(
+                'pages' => 'Dinnovos\Pages'
+            ),
+            'param1' => null,
+            'param2' => null,
+            'param3' => null,
+            'param4' => null,
+            'param5' => null)
+    )
 );
