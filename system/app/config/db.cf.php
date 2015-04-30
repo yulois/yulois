@@ -9,13 +9,12 @@
  */
 
 return array(
-	
 	'prod' => array(
 		'default' => array(
             'host' 		=> 'localhost',
-            'dbname' 	=> 'dinnovos_evento',
-            'user' 		=> 'dinnovos_evento',
-            'password' 	=> '8IxBuSiI2CVT',
+            'dbname' 	=> 'db_yulois',
+            'user' 		=> 'user_yulois',
+            'password' 	=> '',
             'driver' 	=> 'pdo_mysql',
             'charset '	=> 'utf8'
 		),
@@ -24,9 +23,9 @@ return array(
 	'dev' => array(
 		'default' => array(
 			'host' 		=> 'localhost',
-			'dbname' 	=> 'ds_dinnovos',
-			'user' 		=> 'homestead',
-			'password' 	=> 'secret',
+			'dbname' 	=> 'db_yulois',
+			'user' 		=> 'user_yulois',
+			'password' 	=> '',
 			'driver' 	=> 'pdo_mysql',
 			'charset '	=> 'utf8'
 		),
