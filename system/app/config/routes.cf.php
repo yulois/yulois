@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Route;
 
 $routes->add(
 	'homepage',
-	new Route('/', array( 'controller' => 'Dinnovos\Site:Home:index' ))
+	new Route('/', array( 'controller' => 'Dinnovos\Site:Welcome:index' ))
 );
 
 $routes->add(
@@ -21,7 +21,7 @@ $routes->add(
         '/q/{bundle}/{controller}/{action}/{param1}/{param2}/{param3}/{param4}/{param5}',
         array(
             '_bundle' => array(
-                'pages' => 'Dinnovos\Pages'
+                'pages' => 'Dinnovos\Site'
             ),
             'param1' => null,
             'param2' => null,
